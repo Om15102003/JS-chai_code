@@ -39,3 +39,22 @@ console.log(typeof myFunction);
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+//........................................................
+// Stack(primitive), Heap(Non-primitive)
+let myYouTubeChannel="abcdotcom"
+let anotherChannel=myYouTubeChannel
+anotherChannel="xyz123";
+console.log(myYouTubeChannel);
+console.log(anotherChannel);
+let userOne={
+    email:"userOne@Goole.com",
+    upi:"obc@ybl"
+}
+let userTwo=userOne
+userTwo.email="abcabc@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
